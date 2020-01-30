@@ -1,0 +1,65 @@
+version: "3"
+services:
+
+  frontend_safi:
+    container_name: coad-frontend
+    image: coad2019/contratos-frontend
+    env_file: .env
+    depends_on:
+      - db_safi
+      - api_safi
+
+  db_safi:
+    container_name: db-safi
+    image: postgres:11.2-alpine
+    restart: always
+    env_file: .env
+    volumes:
+      - ../local-postgres-data:/var/lib/postgresql/data
+    ports:
+      - 5434:5432
+
+  api_safi:
+    container_name: api-safi
+    image: coad2019/contratos-api
+    command: "gunicorn config.wsgi:application --bind=0.0.0.0:8002 -w 8"
+    env_file: .env
+    ports:
+      - 8002:8000
+    depends_on:
+      - db_safi
+      - redis_safi
+    volumes:
+      - ../Proxy/django_media_safi:/code/sme_coad_apps/media
+      - ../Proxy/django_static_safi:/code/staticfiles
+
+  celery_safi:
+    container_name: celery_safi
+    restart: always
+    image: coad2019/contratos-api
+    command: "celery -A config worker --loglevel=info --concurrency=3 -n worker1@%h"
+    env_file: .env
+    depends_on:
+      - redis_safi
+
+#   beat:
+#     container_name: coad-clery-beat
+#     restart: always
+#     image: coad/contratos-api
+#     command: "celery  -A config beat --loglevel=info"
+#     env_file: .env
+# #    volumes:
+# #      - ./beatLogs.log:/code/terceirizadas.log
+#     depends_on:
+#       - redis
+
+  redis_safi:
+    container_name: coad-redis
+    image: redis:5.0.0-alpine
+    ports:
+      - "6378:6379"
+
+networks:
+  default:
+    external:
+      name: coad-network
