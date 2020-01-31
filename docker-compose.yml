@@ -30,8 +30,8 @@ services:
       - db_safi
       - redis_safi
     volumes:
-      - ../Proxy/django_media_safi:/code/sme_coad_apps/media
-      - ../Proxy/django_static_safi:/code/staticfiles
+      - ../SME-Proxy/django_media_safi:/code/sme_coad_apps/media
+      - ../SME-Proxy/django_static_safi:/code/staticfiles
 
   celery_safi:
     container_name: celery_safi
@@ -42,19 +42,17 @@ services:
     depends_on:
       - redis_safi
 
-#   beat:
-#     container_name: coad-clery-beat
-#     restart: always
-#     image: coad/contratos-api
-#     command: "celery  -A config beat --loglevel=info"
-#     env_file: .env
-# #    volumes:
-# #      - ./beatLogs.log:/code/terceirizadas.log
-#     depends_on:
-#       - redis
+  beat_safi:
+    container_name: coad-celery-beat
+    restart: always
+    image: coad2019/contratos-api
+    command: "celery -A config beat --loglevel=info"
+    env_file: .env
+    depends_on:
+      - celery_safi
 
   redis_safi:
-    container_name: coad-redis
+    container_name: safi-redis
     image: redis:5.0.0-alpine
     ports:
       - "6378:6379"
