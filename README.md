@@ -107,7 +107,7 @@ Ainda não entrou em produção.
 
 # Como contribuir
 
-Contribuições são **super bem vindas**! Se você tem vontade de construir o PTRF conosco, veja o nosso [guia de contribuição](./CONTRIBUTING.md) onde explicamos detalhadamente como trabalhamos e de que formas você pode nos ajudar a alcançar nossos objetivos. Lembrando que todos devem seguir  nosso [código de conduta](./CODEOFCONDUCT.md).
+Contribuições são **super bem vindas**! Se você tem vontade de construir o SAFI conosco, veja o nosso [guia de contribuição](./CONTRIBUTING.md) onde explicamos detalhadamente como trabalhamos e de que formas você pode nos ajudar a alcançar nossos objetivos. Lembrando que todos devem seguir  nosso [código de conduta](./CODEOFCONDUCT.md).
 
 # Repositórios
 
