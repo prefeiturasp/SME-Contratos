@@ -79,8 +79,8 @@ Há a necessidade de um sistema que permita a gestão e o acompanhamento de todo
 
 ## Fase de Descoberta
 
-- [Principais desafios e necessidades de cada área mapeada] (https://smeprefeituraspgov.sharepoint.com/:p:/r/sites/amcom/Shared%20Documents/AMCom/Design%20de%20Servi%C3%A7os/2.%20Descobertas%20realizadas/COAD/SAFI/Solu%C3%A7%C3%A3o%20final%20V1/COAD-DoresNecessidadesInsights.pptx?d=w38610cc29bfe40f1a8f7f109c6cf70a2&csf=1&web=1&e=0chYai)
-- [Personas que poderão ser beneficiadas com o sistema] (https://smeprefeituraspgov.sharepoint.com/:f:/r/sites/amcom/Shared%20Documents/AMCom/Design%20de%20Servi%C3%A7os/2.%20Descobertas%20realizadas/COAD/SAFI/Solu%C3%A7%C3%A3o%20final%20V1/Personas?csf=1&web=1&e=P1df5H)
+- [Principais desafios e necessidades de cada área mapeada](https://smeprefeituraspgov.sharepoint.com/:p:/r/sites/amcom/Shared%20Documents/AMCom/Design%20de%20Servi%C3%A7os/2.%20Descobertas%20realizadas/COAD/SAFI/Solu%C3%A7%C3%A3o%20final%20V1/COAD-DoresNecessidadesInsights.pptx?d=w38610cc29bfe40f1a8f7f109c6cf70a2&csf=1&web=1&e=0chYai) 
+- [Personas que poderão ser beneficiadas com o sistema](https://smeprefeituraspgov.sharepoint.com/:f:/r/sites/amcom/Shared%20Documents/AMCom/Design%20de%20Servi%C3%A7os/2.%20Descobertas%20realizadas/COAD/SAFI/Solu%C3%A7%C3%A3o%20final%20V1/Personas?csf=1&web=1&e=P1df5H)
 - [Apresentação consolidada da proposta final](https://smeprefeituraspgov.sharepoint.com/:p:/r/sites/amcom/Shared%20Documents/AMCom/Design%20de%20Servi%C3%A7os/2.%20Descobertas%20realizadas/COAD/SAFI/Solu%C3%A7%C3%A3o%20final%20V1/Sistema%20COAD-Apresentac%CC%A7a%CC%83o.pptx?d=wfc8418ce16934be1acbe2fccaa216738&csf=1&web=1&e=8Mar7h)
 
 Para o início do projeto, foi decidido desenvolver o módulo de cadastro e ateste de contratos, que pode ter seu mapa de entregáveis visualizado [neste link](https://drive.google.com/file/d/10B38C_z5geliKblxC3M_a8EIwf0iJBFU/view?usp=sharing).
