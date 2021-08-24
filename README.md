@@ -24,7 +24,7 @@ O [Ateliê de Software](http://forum.govit.prefeitura.sp.gov.br/uploads/default/
  
 # Sobre o Produto
 
-O SAFI é o sistema para gestão de contratos da Secretaria Municipal de Educação (SME). A partir dele, já é possível cadastrar contratos. No futuro, será possível acompanhar os processos de obras, patrimônio e realizar o acompanhamento financeiro e de escopo das contratações realizadas pela secretaria.
+O SAFI é o sistema para gestão de contratos da Secretaria Municipal de Educação (SME). A partir dele, já é possível cadastrar e acompanhar contratos vigentes e passados. No futuro, também será possível acompanhar os processos de obras, patrimônio e realizar o acompanhamento financeiro e de escopo das contratações realizadas pela secretaria.
 
 ## Visão de Futuro
 
@@ -36,7 +36,7 @@ O **SAFI**
 
 É um **sistema na web**  
 
-Que **apoia o cadastro e o acompanhamento dos contratos vigentes e a visualização de histórico de contratos passados**
+Que **apoia o cadastro e o acompanhamento e a evolução dos serviços dos contratos vigentes e a visualização de histórico de contratos passados**
 
 Diferentemente da **realização do acompanhamento em planilhas de Excel**
 
@@ -48,7 +48,7 @@ O Nosso produto **busca facilitar todo o processo de gestão e acompanhamento de
 
 - **Não é**: um sistema de assinatura digital de contratos.
 
-- **Faz**: cadastra contratos vigentes.
+- **Faz**: cadastra contratos vigentes, acompanha andamento do contrato e registra históricos da contratação.
 
 - **Não faz**: ainda não faz integração com SEI, consolidação de penalidades, cálculos de multa, entre outros.
 
