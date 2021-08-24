@@ -54,7 +54,7 @@ O Nosso produto **busca facilitar todo o processo de gestão e acompanhamento de
 
 ## Personas
 
-O processo de descoberta criou uma série de personas que podem ser beneficiadas com o sistema. [Veja o material aqui] (https://smeprefeituraspgov.sharepoint.com/:f:/r/sites/amcom/Shared%20Documents/AMCom/Design%20de%20Servi%C3%A7os/2.%20Descobertas%20realizadas/COAD/SAFI/Solu%C3%A7%C3%A3o%20final%20V1/Personas?csf=1&web=1&e=P1df5H).
+O processo de descoberta criou uma série de personas que podem ser beneficiadas com o sistema. [Veja o material aqui](https://smeprefeituraspgov.sharepoint.com/:f:/r/sites/amcom/Shared%20Documents/AMCom/Design%20de%20Servi%C3%A7os/2.%20Descobertas%20realizadas/COAD/SAFI/Solu%C3%A7%C3%A3o%20final%20V1/Personas?csf=1&web=1&e=P1df5H).
 
 ## Funcionalidades
 
